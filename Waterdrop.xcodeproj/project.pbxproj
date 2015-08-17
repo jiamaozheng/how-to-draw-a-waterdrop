@@ -15,6 +15,7 @@
 		12B6CE2C1B8213EA0083E59D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B6CE2B1B8213EA0083E59D /* Images.xcassets */; };
 		12B6CE2F1B8213EA0083E59D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B6CE2D1B8213EA0083E59D /* LaunchScreen.xib */; };
 		12B6CE3B1B8213EA0083E59D /* WaterdropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B6CE3A1B8213EA0083E59D /* WaterdropTests.m */; };
+		12B6CE461B82141F0083E59D /* waterdrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B6CE451B82141F0083E59D /* waterdrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		12B6CE341B8213EA0083E59D /* WaterdropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterdropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B6CE391B8213EA0083E59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12B6CE3A1B8213EA0083E59D /* WaterdropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterdropTests.m; sourceTree = "<group>"; };
+		12B6CE441B82141F0083E59D /* waterdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waterdrop.h; sourceTree = "<group>"; };
+		12B6CE451B82141F0083E59D /* waterdrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waterdrop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				12B6CE201B8213EA0083E59D /* AppDelegate.m */,
 				12B6CE251B8213EA0083E59D /* ViewController.h */,
 				12B6CE261B8213EA0083E59D /* ViewController.m */,
+				12B6CE441B82141F0083E59D /* waterdrop.h */,
+				12B6CE451B82141F0083E59D /* waterdrop.m */,
 				12B6CE281B8213EA0083E59D /* Main.storyboard */,
 				12B6CE2B1B8213EA0083E59D /* Images.xcassets */,
 				12B6CE2D1B8213EA0083E59D /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B6CE461B82141F0083E59D /* waterdrop.m in Sources */,
 				12B6CE211B8213EA0083E59D /* AppDelegate.m in Sources */,
 				12B6CE241B8213EA0083E59D /* Waterdrop.xcdatamodeld in Sources */,
 				12B6CE271B8213EA0083E59D /* ViewController.m in Sources */,
